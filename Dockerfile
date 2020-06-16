@@ -1,4 +1,4 @@
-FROM continuumio/anaconda
+FROM continuumio/miniconda3
 
 RUN conda config --add channels r
 RUN conda config --add channels bioconda
